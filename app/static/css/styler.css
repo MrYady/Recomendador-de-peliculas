@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #000306;
+    color: #ff2727;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+}
+
+.content{
+    width: 80%;
+    height: 80vh; 
+    text-align: center;
+}
+
+.titulo{
+    font-size: 4vw;
+    margin-top: 5%;
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+form{
+    width: 50%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.imagen{
+    width: 40%;
+}
+
+input{
+    background-color: #fff;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+button{
+    background-color: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    
+}
