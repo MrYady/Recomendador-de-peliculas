@@ -59,3 +59,18 @@ button{
     border: none;
     
 }
+.recomendation {
+    margin-top: 2%;
+}
+.recomendation ul {
+    list-style-type: none;
+    padding: 0;
+}
+.recomendation li {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
